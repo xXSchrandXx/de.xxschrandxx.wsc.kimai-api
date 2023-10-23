@@ -1,0 +1,4 @@
+files/lib/system/api/php-kimai-api-client/*
+!files/lib/system/api/php-kimai-api-client/composer.json
+*.tar
+*.tar.gz

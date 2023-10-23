@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://www.woltlab.com"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.4/option.xsd">
+	<import>
+		<categories>
+			<category name="kamai">
+				<parent/>
+			</category>
+			<category name="kamai_general">
+				<parent>kamai</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="kamai_url">
+				<categoryname>kamai_general</categoryname>
+				<optiontype>url</optiontype>
+			</option>
+			<option name="kamai_user">
+				<categoryname>kamai_general</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="kamai_token">
+				<categoryname>kamai_general</categoryname>
+				<optiontype>password</optiontype>
+			</option>
+		</options>
+	</import>
+</data>
