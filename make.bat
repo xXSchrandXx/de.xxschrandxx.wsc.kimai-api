@@ -1,6 +1,8 @@
 set PACKAGE_NAME=de.xxschrandxx.wsc.kimai-api
 set PACKAGE_TYPES=(files)
 
+call composer install --working-dir=files/lib/system/api/php-kimai-api-client/
+
 for %%i in %PACKAGE_TYPES% do (
     del .\%%i.tar
     7z a -ttar -mx=9 .\%%i.tar .\%%i\*

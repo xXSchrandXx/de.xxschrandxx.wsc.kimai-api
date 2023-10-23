@@ -2,6 +2,8 @@
 PACKAGE_NAME=de.xxschrandxx.wsc.kimai-api
 PACKAGE_TYPES=(files)
 
+composer install --working-dir=files/lib/system/api/php-kimai-api-client/
+
 for i in "${PACKAGE_TYPES[@]}"
 do
     rm -rf ${i}.tar
