@@ -2,7 +2,7 @@
 PACKAGE_NAME=de.xxschrandxx.wsc.kimai-api
 PACKAGE_TYPES=(files)
 
-composer install --working-dir=files/lib/system/api/php-kimai-api-client/
+composer install --working-dir=files/lib/system/api/kimai-api-php/
 
 for i in "${PACKAGE_TYPES[@]}"
 do
