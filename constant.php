@@ -1,5 +1,5 @@
 <?php
 
-define('KAMAI_URL', '');
-define('KAMAI_USER', '');
-define('KAMAI_TOKEN', '');
+define('KIMAI_URL', '');
+define('KIMAI_USER', '');
+define('KIMAI_TOKEN', '');

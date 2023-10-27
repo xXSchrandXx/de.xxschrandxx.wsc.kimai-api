@@ -3,13 +3,13 @@
 	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.5/userGroupOption.xsd">
 	<import>
 		<categories>
-			<category name="user.kamai">
+			<category name="user.kimai">
 				<parent>user</parent>
 			</category>
-			<category name="mod.kamai">
+			<category name="mod.kimai">
 				<parent>mod</parent>
 			</category>
-			<category name="admin.kamai">
+			<category name="admin.kimai">
 				<parent>admin</parent>
 			</category>
 		</categories>

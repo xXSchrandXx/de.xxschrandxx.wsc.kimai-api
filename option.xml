@@ -3,24 +3,24 @@
 	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.4/option.xsd">
 	<import>
 		<categories>
-			<category name="kamai">
+			<category name="kimai">
 				<parent/>
 			</category>
-			<category name="kamai_general">
-				<parent>kamai</parent>
+			<category name="kimai_general">
+				<parent>kimai</parent>
 			</category>
 		</categories>
 		<options>
-			<option name="kamai_url">
-				<categoryname>kamai_general</categoryname>
-				<optiontype>url</optiontype>
+			<option name="kimai_url">
+				<categoryname>kimai_general</categoryname>
+				<optiontype>URL</optiontype>
 			</option>
-			<option name="kamai_user">
-				<categoryname>kamai_general</categoryname>
+			<option name="kimai_user">
+				<categoryname>kimai_general</categoryname>
 				<optiontype>text</optiontype>
 			</option>
-			<option name="kamai_token">
-				<categoryname>kamai_general</categoryname>
+			<option name="kimai_token">
+				<categoryname>kimai_general</categoryname>
 				<optiontype>password</optiontype>
 			</option>
 		</options>

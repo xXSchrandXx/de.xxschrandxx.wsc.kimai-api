@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="de"
+	xmlns="https://www.woltlab.com"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.5/language.xsd">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.kimai"><![CDATA[Kamai]]></item>
+		<item name="wcf.acp.option.category.kimai_general"><![CDATA[Allgemeine Einstellungen]]></item>
+		<item name="wcf.acp.option.kimai_url"><![CDATA[URL zur Kimai]]></item>
+		<item name="wcf.acp.option.kimai_url.description"><![CDATA[Die URL zur Kimai. Beispiel: <code>http://localhost</code>.]]></item>
+		<item name="wcf.acp.option.kimai_user"><![CDATA[Username]]></item>
+		<item name="wcf.acp.option.kimai_token"><![CDATA[API-Passwort]]></item>
+		<item name="wcf.acp.option.kimai_token.description"><![CDATA[Das API-Passwort, das im Benutzerprofil festgelegt werden muss <code>http://localhost/de_DE/profile/admin/api-token</code>.]]></item>
+	</category>
+</language>
